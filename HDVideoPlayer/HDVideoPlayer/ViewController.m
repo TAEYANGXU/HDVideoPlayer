@@ -25,7 +25,7 @@
     self.title = @"HDVideoPlayer";
     self.view.backgroundColor = [UIColor whiteColor];
     
-    videoPlayerController = [[HDVideoPlayerController alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, 180)];
+    videoPlayerController = [[HDVideoPlayerController alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, 200)];
     
     //设置视频地址
     videoPlayerController.contentURL = [NSURL URLWithString:@"http://v.hoto.cn/01/f7/1046273.mp4"];

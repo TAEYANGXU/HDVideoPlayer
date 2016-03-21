@@ -31,6 +31,8 @@ static const CGFloat kVideoPlayerControllerAnimationTimeInterval = 0.3f;
 {
     self = [super init];
     if (self) {
+        
+        self.scalingMode = MPMovieScalingModeAspectFill;
         self.view.frame = frame;
         self.view.backgroundColor = [UIColor lightGrayColor];
         self.controlStyle = MPMovieControlStyleNone;
