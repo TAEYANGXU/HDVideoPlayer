@@ -15,7 +15,7 @@
 //全屏回调
 @property (nonatomic,copy) void(^fullScreenBlock)(void);
 //缩放回调
-@property (nonatomic,copy) void(^shrinkScreenBlock)(void);
+@property (nonatomic,copy) void(^shrinkScreenBlock)(void); 
 
 
 @property (nonatomic, assign) CGRect frame;
@@ -23,7 +23,7 @@
 - (instancetype)initWithFrame:(CGRect)frame;
 
 /**
- *  关闭视频
+ *  关闭视频1111
  */
 - (void)close;
 @end
